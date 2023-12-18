@@ -3,6 +3,6 @@
    hosts: all
    
    tasks:
-    - name: "Running Script"
+    - name: Running Script
       script: python3 main.py
       
