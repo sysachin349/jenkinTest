@@ -1,0 +1,8 @@
+---
+ - name: copying test.py script and running
+   hosts: all
+   
+   tasks:
+    - name: "Running Script"
+      script: python3 main.py
+      
