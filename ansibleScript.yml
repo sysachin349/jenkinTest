@@ -2,4 +2,4 @@
   hosts: all
   tasks:
     - name: Execute a shell command
-      shell: echo "Hello, World!!!"
+      shell: echo "Hello, World!!"
