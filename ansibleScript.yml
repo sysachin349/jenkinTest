@@ -8,4 +8,4 @@
         src='test.py'
         dest='/home/ansadmin/test.py'
     - name: running test.py
-        shell: python3 test.py
+      shell: python3 test.py
