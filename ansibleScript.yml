@@ -1,8 +1,5 @@
----
- - name: copying test.py script and running
-   hosts: all
-   
-   tasks:
-    - name: Running Script
-      script: python3 main.py
-      
+- name: Run a shell command
+  hosts: all
+  tasks:
+    - name: Execute a shell command
+      shell: echo "Hello, World!"
