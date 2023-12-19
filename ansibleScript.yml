@@ -3,3 +3,9 @@
   tasks:
     - name: Execute a shell command
       shell: echo "Hello, World!!!!!!"
+    - name: copying
+      copy:
+        src='test.py'
+        dest='/home/ansadmin/test.py'
+    - name: running test.py
+        shell: python3 test.py
